@@ -14,3 +14,18 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/usuario', function () {
+    return view('usuario.create');
+});
+
+Route::get('/pase', function () {
+    return view('estudiante.nota ');
+});
+
+Route::get('/estudi', function () {
+    return view('estudiantes.nota');
+});
+Route::get('/estud', function () {
+    return view('empleados.salario');
+});
